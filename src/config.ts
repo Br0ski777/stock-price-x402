@@ -28,6 +28,54 @@ Do NOT use for crypto prices -- use finance_get_token_price instead. Do NOT use 
         },
         required: ["symbol"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "Stock ticker symbol"
+            },
+            "name": {
+              "type": "string",
+              "description": "Company name"
+            },
+            "exchange": {
+              "type": "string",
+              "description": "Exchange name"
+            },
+            "price": {
+              "type": "number",
+              "description": "Current price"
+            },
+            "change": {
+              "type": "number",
+              "description": "Price change"
+            },
+            "changePercent": {
+              "type": "number",
+              "description": "Price change percent"
+            },
+            "volume": {
+              "type": "number",
+              "description": "Trading volume"
+            },
+            "marketCap": {
+              "type": "number",
+              "description": "Market capitalization"
+            },
+            "currency": {
+              "type": "string",
+              "description": "Currency"
+            },
+            "timestamp": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "symbol",
+            "price"
+          ]
+        },
     },
   ],
 };
