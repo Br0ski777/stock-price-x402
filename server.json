@@ -1,1 +1,18 @@
-{"$schema":"https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json","name":"io.github.Br0ski777/stock-price","title":"Stock Price API","description":"Real-time stock quotes \u00e2\u20ac\u201d price, change, volume, market cap. x402 micropayment.","version":"1.0.0","websiteUrl":"https://github.com/Br0ski777/stock-price-x402","repository":{"url":"https://github.com/Br0ski777/stock-price-x402","source":"github"},"remotes":[{"type":"sse","url":"https://stock-price-x402-production.up.railway.app/mcp"}]}
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Br0ski777/stock-price",
+  "title": "Stock Price API",
+  "description": "Real-time stock quotes \u00e2\u20ac\u201d price, change, volume, market cap. x402 micropayment.",
+  "version": "1.0.1",
+  "websiteUrl": "https://github.com/Br0ski777/stock-price-x402",
+  "repository": {
+    "url": "https://github.com/Br0ski777/stock-price-x402",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://stock-price-x402-production.up.railway.app/mcp"
+    }
+  ]
+}
