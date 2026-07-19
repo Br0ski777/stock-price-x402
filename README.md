@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `finance_get_stock_price` | POST | `/api/quote` | $0.002 | Get real-time stock quote with price, change, volume, and market cap |
+| `finance_get_stock_price` | POST | `/api/quote` | $0.005 | Get real-time stock quote with price, change, volume, and market cap |
 
 ### `finance_get_stock_price`
 
