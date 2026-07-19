@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/quote",
-      price: "$0.002",
+      price: "$0.005",
       description: "Get real-time stock quote with price, change, volume, and market cap",
       toolName: "finance_get_stock_price",
       toolDescription: `Use this when you need a real-time stock price quote. Returns market data for any ticker symbol in JSON.
